@@ -1,0 +1,49 @@
+<% layout('layouts/main')%>
+
+<script
+src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<div class="feedback">
+    <h1>Add your Feedback</h1>
+
+    
+</div>
+<div class="form">
+    <form action="/feedback" method="POST"ng-app="myApp" ng-controller="validateCtrl" name="myForm" novalidate>
+
+        <h2>Enter your name:</h2><br>
+       <br> <input type="text" name="Name" ng-model="user" required>
+       <span style="color:red">
+        <span ng-show="myForm.Name.$error.required">Username is
+        required.</span></span></p>
+
+        <h2>Enter your Phone Number:</h2><br>
+        <br><input type="text" name="Regno" ng-model="user1" required>
+        <span style="color:red">
+            <span ng-show="myForm.Regno.$error.required">Registration No is
+            required.</span></span></p>
+        
+        <h2>Enter your Email Id:</h2><br>
+       <br> <input type="email" name="email"  ng-model="email" required>
+       <span style="color:red" >
+        <span ng-show="myForm.email.$error.required">Email is required.</span>
+        <span ng-show="myForm.email.$error.email">Invalid email address.</span></span>
+
+       <h2>Enter your feedback:</h2><br>
+       <input type="text" name="Description" required></input>
+       <!-- <textarea rows="16" cols="30"></textarea> -->
+       <br>
+       <br>
+       <button id="sd">Submit</button>
+        
+
+
+    </form>
+</div>
+<script>var app = angular.module('myApp', []);
+    app.controller('validateCtrl', function($scope) {
+   
+    });</script>
+
+    
+</body>

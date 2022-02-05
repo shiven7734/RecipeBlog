@@ -1,0 +1,186 @@
+#oo{
+    position: relative;
+    left: 960px;
+    bottom: 23px;
+   
+}
+#ee{
+    height: 60px;
+    width: 60px;
+}
+#h{
+    position: relative;
+    top: 60px;
+    background-color: #C2EDCE;
+    height: 320px;
+    border-radius: 30px;
+    left: 50px;
+    width: 1120px;
+
+
+
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+#f{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+#dd{
+    position: relative;
+    left: 750px;
+    top: 15px;
+}
+body{
+    background-image: url(https://media.istockphoto.com/vectors/food-background-vegetables-seamless-pattern-healthy-eating-tomato-vector-id1198380802?k=20&m=1198380802&s=612x612&w=0&h=90Kas9nMPliSo4S6MjLv7ICRfHdwH7eO__N915fQUnE=);
+  
+}
+ #kkk{
+    height: 225px;
+    width: 225px;
+}
+#hs{
+    /* width: 120px;
+    height: 100px; */
+    background-color: rgb(71, 209, 101);
+}
+#hs1{
+    /* width: 120px;
+    height: 300px; */
+    background-color: rgb(209, 82, 82);
+}
+.bb{
+    margin: 20px;
+  
+
+}
+#rr{
+    text-align: center;
+    padding: 20px;
+}
+#hs{
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+    text-decoration: none;
+    transition: 250ms all ;
+    box-shadow: 0px 3px 6px ;
+    border-radius: 7px;
+    position: relative;
+    top: 50px;
+    width: 1220px;
+    left: 70px;
+
+
+}
+#hs:hover{
+    transform: scale(1.1);
+
+
+}
+#ok{
+    background-color: rgb(48, 172, 68);
+    height: 600px;
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+    border-radius:30px ;
+}
+#navbarSupportedContent{
+    top: 80px;
+}
+#hs1{
+    margin: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: 250ms all ;
+    box-shadow: 0px 3px 6px ;
+    border-radius: 7px;
+
+}
+#hs1:hover{
+    transform: scale(1.1);
+
+}
+
+
+#as{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    margin: 20px;
+}
+#as2{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    margin: 20px;
+    
+    
+
+}
+.form{
+    text-align: center;
+    background-color: #C1C8E4;
+    border-radius: 20px;
+    height: 580px;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+#sd{
+    background-color: #C2EDCE;
+    transition: 25ms ease-in;
+
+    
+}
+#n{
+    padding: 30px;
+    background-color: #C2EDCE;
+    border-radius: 30px;
+   
+}
+#z{
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 30px;
+    height: 700px;
+}
+label{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#l{
+    padding: 30px;
+    background-color: #C2EDCE;
+    border-radius: 30px;
+}
+#j{
+    padding: 30px;
+    margin: 30px;
+}
+#kkk{
+    position: relative;
+    left: 790px;
+    bottom: 220px;
+
+}
+h2,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(170, 46, 30);
+}

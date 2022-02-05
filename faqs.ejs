@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions</title>
+    <link rel="stylesheet" href="/css/faq.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#s").click(function(){
+$("#q1").toggle(2000);
+
+});$("#r").click(function(){
+$("#q2").toggle(2000);});
+$("#u").click(function(){
+$("#q3").toggle(2000);});
+$("#k").click(function(){
+$("#q4").toggle(2000);});
+$("#i").click(function(){
+$("#q5").toggle(2000);});
+ });
+
+</script>
+<script>
+    function add(){
+        var s=$("#te");
+        var sr="<li id=>" +s.val()+"</li>"
+        $("#list").append(sr);
+        s.val("");
+    }
+</script>
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+    
+    <div id="top">
+        <h1>Frequently Asked Questions</h1>
+        <p><a href="/">Home</a></p>
+        
+    </div>
+    <div class="container">
+        <div id="box1" class="fine">
+            <h3><b>Q:How do i contact for any query?</b></h3>
+            
+            <h3 id="q1">Ans: If you have questions,you can contact us on the Phno.+9127183828 or email us at Rechef@gmail.com</h3>
+        </div>
+            <button id="s" class="o">Hide</button>
+
+
+       
+        <div id="box2"class="fine">
+            <h3><b>Q:Can Anyone Upload their recipe </b></h3>
+            
+            <h3 id="q2" >Ans: Yes, Anyone can Upload their recipe on this Blog under the criteria mentioned.</h3>
+        </div>
+            <button id="r" class="o">Hide</button>
+        
+        <div id="box3"class="fine">
+            <h3><b>Q: Are the Recipes genuine? </b></h3>
+            
+            <h3 id="q3">Ans: Yes they are verified by Our team and then uploaded on the Blog </h3>
+        </div>
+            <button id="u" class="o">Hide</button>
+            
+        
+        <div id="box4"class="fine">
+            <h3><b>Q:</b></h3>
+            
+            <h3 id="q4">Ans: You have to be a registered student of VIT (all campuses).</h3>
+        </div>
+            <button id="k"class="o">Hide</button>
+        
+        
+      
+
+
+
+
+
+
+    </div>
+    <br><br><br>
+    <div class="q">
+        <h2 id="qq" > Add Your Queries</h2>
+        <ul id="list">
+            
+        </ul>
+
+
+        <input type="text" name="request" placeholder="Enter your query" id="te">
+        <input type="submit" onclick="add()" value="Add" id="btn">
+      
+
+
+    </div>
+
+
+    
+
+
+    
+</body>
+</html>
